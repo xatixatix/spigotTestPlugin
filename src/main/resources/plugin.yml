@@ -1,0 +1,9 @@
+main: 'org.xatixatix.TestPlugin'
+version: '0.0.1'
+name: 'XATIXATIXTestPlugin'
+api-version: '1.19'
+commands:
+  HelloWorld:
+    description: Hello World command!
+    usage: /helloworld
+    permission: xatixatixtestplugin.helloworld
