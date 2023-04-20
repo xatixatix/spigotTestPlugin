@@ -1,9 +1,23 @@
 main: 'org.xatixatix.TestPlugin'
-version: '0.0.1'
+version: '0.0.2'
 name: 'XATIXATIXTestPlugin'
+author: 'XATIXATIX'
+website: 'https://github.com/xatixatix/spigotTestPlugin'
+prefix: 'Test Plugin'
 api-version: '1.19'
+
 commands:
   HelloWorld:
     description: Hello World command!
     usage: /helloworld
-    permission: xatixatixtestplugin.helloworld
+    permission: xatixatixtestplugin.anyone
+
+  ListInventory:
+    description: This command lists all the items that you have in your inventory.
+    usage: /listinventory
+    permission: xatixatixtestplugin.anyone
+
+permissions:
+  xatixatixtestplugin.anyone:
+    description: "Allows any user to use this command."
+    default: true
