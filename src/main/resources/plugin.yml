@@ -17,7 +17,12 @@ commands:
     usage: /listinventory
     permission: xatixatixtestplugin.anyone
 
+  Leaderboard:
+    description: This command opens the leaderboard.
+    usage: /leaderboard
+    permission: xatixatixtestplugin.anyone
+
 permissions:
   xatixatixtestplugin.anyone:
-    description: "Allows any user to use this command."
+    description: "Allows any user to use the commands in this group."
     default: true
