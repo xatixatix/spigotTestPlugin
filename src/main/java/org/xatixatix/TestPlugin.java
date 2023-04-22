@@ -1,13 +1,11 @@
 package org.xatixatix;
 
-import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.xatixatix.commands.HelloWorld;
 import org.xatixatix.commands.Leaderboard;
 import org.xatixatix.commands.ListInventory;
 import org.xatixatix.listeners.PlayerJoins;
 import org.xatixatix.listeners.PlayerLeaves;
-import org.xatixatix.utils.PlayerList;
 
 public class TestPlugin extends JavaPlugin {
 
