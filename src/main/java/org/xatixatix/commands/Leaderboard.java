@@ -7,7 +7,7 @@ import org.bukkit.command.CommandSender;
 public class Leaderboard implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        //TODO open open leaderboard
+        //TODO open open leaderboard for player
         return true;
     }
 }
